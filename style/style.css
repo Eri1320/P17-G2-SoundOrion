@@ -1,8 +1,141 @@
-body {
-    background-color: cadetblue;
+:root {
+    --vertical-caja-pequeña-: 375px;
+    --horizontal-caja-pequeña: 500px;
 }
+
+body {
+    background-color: #60D394;
+}
+
 /*Inicio de la parte de Eri*/
 
+header {
+    background-color: #D8574D;
+    margin: -8px -8px 0px -8px;
+    padding: 5px;
+    position: relative;
+}
+
+#Logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+#Titulo-barra {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Iconos-Sociales {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+#Iconos-Derecha {
+    width: 160px;
+    position: absolute;
+    left: 1060px;
+    bottom: 10px;
+}
+
+#Menu {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#CajaPrincipal {
+    position: relative;
+}
+
+#Titulo-Principal {
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin: 50px 0px 0px 60px;
+    display: block;
+    position: relative;
+    top: 40px;
+}
+
+.Caja-Pequeña {
+    width: var(--horizontal-caja-pequeña);
+    height: var(--vertical-caja-pequeña-);
+    position: relative;
+}
+
+#Imagen-Principal {
+    width: 700px;
+    height: 523px;
+    position: relative;
+    right: 443px;
+    top: 90px;
+    border-radius: 5px;
+}
+
+#Cajita1 {
+    left: 705px;
+    bottom: 370px;
+    border-radius: 5px;
+}
+
+#Caja-Acerca-De {
+    left: 500px;
+    bottom: 50px;
+    background-color: #c9ffcf;
+}
+
+#Titulo-En-Cajita {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 50px 50px 0 50px;
+}
+
+#Texto-CajitaInicial {
+    padding: 0 50px 0 50px;
+    font-size: 18px;
+}
+
+#Boton-CajitaInicial {
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    background-color: #FFD97D;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 20px;
+    border-color: #60D394;
+}
+
+#Boton-CajitaInicial:hover {
+    background-color: #c332ca;
+    color: white;
+}
+
+#Boton-CajitaInicial:active {
+    background-color: #ff7514;
+    color: white;
+}
+
+#Circulo {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 40px groove #85E58C;
+    position: absolute;
+    bottom: 205px;
+    right: 970px;
+}
 
 /*Fin de la parte de Eri*/
 
