@@ -7,7 +7,7 @@ body {
     background-color: #60D394;
 }
 
-/*Inicio de la parte de Eri*/
+/*Inicio de la parte de Eri - Seccion 1*/
 
 header {
     background-color: #D8574D;
@@ -136,6 +136,29 @@ header {
     bottom: 205px;
     right: 970px;
 }
+
+/* Sección 2 - Eri*/
+
+#Seccion2 {
+    background-color: #c6b1c9;
+    height: 620px;
+    margin: auto -8px auto -8px;
+    padding: 50px;
+}
+
+.Imagenes-Galeria {
+    width: 280px;
+    height: 280px;
+    border-radius: 5%;
+    margin: 1%;
+}
+
+#Galeria {
+    height: 620px;
+    width: 1231px;
+    margin: auto;
+}
+
 
 /*Fin de la parte de Eri*/
 
