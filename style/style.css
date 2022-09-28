@@ -164,5 +164,109 @@ header {
 
 /*Inicio de la parte de Patrick*/
 
+.centrar {
+    margin: auto;
+}
 
+.capitalize {
+    text-transform: uppercase;
+}
+
+/*sección 5*/
+
+#parte5 {
+    width: 1348px;
+    height: 550px;
+    margin: -8px;
+    background-image: url(https://i.ibb.co/g9B046M/fondoparte4-2.png);
+    background-size: contain;
+}
+
+#cajadetextop5 {
+    width: 1000px;
+    height: 150px;
+    position: relative;
+    top: 375px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+#lado-izq {
+    width: 300px;
+    height: 150px;
+    float: left;
+    background-color: #c332ca;
+}
+
+#titulo-lado-izq {
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: -1px;
+    margin: 40px;
+}
+
+#lado-der {
+    width: 700px;
+    height: 150px;
+    float: right;
+    background-color: white;
+}
+
+#texto-lado-der {
+    font-size: 20px;
+    text-align: left;
+    margin: 35px 20px;
+}
+
+/*fin sección 5*/
+
+/*sección 6*/
+
+#parte6 {
+    width: 1348px;
+    height: 750px;
+    margin-left: -8px;
+    background-color: #60D394;
+}
+
+#titulo-p6 {
+    margin: 20px 0px 0px 60px;
+    font-size: 40px;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+#cajacontenedorap6 {
+    width: 1250px;
+    height: 600px;
+    opacity: 0.9;
+    position: relative;
+    left: 55px;
+}
+
+.grupo-de-cajas {
+    width: 575px;
+    height: 165px;
+    float: left;
+    margin: 20px;
+    background-color: #c9ffcf
+}
+
+.texto-p6 {
+    margin: -20px 20px 20px 60px;
+    font-family: 'Abyssinica SIL', serif;
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.tildes {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+/*fin sección 6*/
 /*Fin de la parte de Patrick*/
