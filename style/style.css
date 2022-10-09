@@ -141,7 +141,6 @@ header {
 
 #Seccion2 {
     background-color: #c6b1c9;
-    height: 620px;
     margin: auto -8px auto -8px;
     padding: 50px;
 }
@@ -157,6 +156,138 @@ header {
     height: 620px;
     width: 1231px;
     margin: auto;
+}
+
+/* Sección 3 - Eri */
+
+#Seccion3 {
+    position: relative;
+    height: 700px;
+    margin: auto auto 30px auto;
+}
+
+#Texto1-Seccion3 {
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    font-size: 18px;
+}
+
+#Titulo-Pequeño-Seccion3 {
+    font-size: 35px;
+}
+
+#Img1-Seccion3 {
+    width: 622px;
+    height: 350px;
+    position: relative;
+    top: 170px;
+    left: 80px;
+}
+
+#Texto2-Seccion3 {
+    height: 140px;
+    width: 450px;
+    font-size: 18px;
+}
+
+#Img2-Seccion3 {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+
+#Parte2-Seccion3 {
+    position: relative;
+    width: 500px;
+    height: 550px;
+    left: 750px;
+    bottom: 395px;
+}
+
+#Titulo-Seccion3-Texto2 {
+    font-size: 40px;
+}
+
+#Marco {
+    width: 610px;
+    height: 400px;
+    background-color: transparent;
+    border: 12px solid #349dff;
+    position: absolute;
+    left: 620px;
+    bottom: 250px;
+}
+
+/* Sección 4 - Eri */
+
+#Seccion4 {
+    background-color: #c6b1c9;
+    height: 700px;
+    margin: auto -8px auto -8px;
+    padding: 50px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+#Texto-Seccion4 {
+    position: relative;
+    margin: 100px auto auto auto;
+}
+
+#Seccion4-TituloPrincipal {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 50px;
+}
+
+#Linea-Seccion4 {
+    background-color: #b47b91;
+    width: 380px;
+    height: 8px;
+}
+
+.Subtitulos {
+    font-style: oblique;
+}
+
+#Parrafo1 {
+    width: 380px;
+    height: 320px;
+}
+
+#Parrafo2 {
+    width: 380px;
+    height: 320px;
+    position: absolute;
+    left: 425px;
+    bottom: 20px;
+}
+
+#Parrafo3 {
+    width: 380px;
+    height: 320px;
+    position: absolute;
+    left: 848px;
+    bottom: 20px;
+}
+
+#Boton-seccion4 {
+    margin-top: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    background-color: #b5c7b3;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px;
+    width: 240px;
+    border-color: #60D394;
 }
 
 
